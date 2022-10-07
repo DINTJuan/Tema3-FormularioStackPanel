@@ -14,7 +14,7 @@
                     <GradientStop Color="#FFFEFFFE" Offset="0.983"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Height="22" Width="622"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Height="22" Width="622" FontWeight="Bold" FontSize="16"/>
             <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="622"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="57" Margin="88,114,0,0" VerticalAlignment="Top" Width="622">
@@ -24,7 +24,7 @@
                     <GradientStop Color="White" Offset="0.8"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Dirrecion" VerticalAlignment="Top" Height="22" Width="622"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Dirrecion" VerticalAlignment="Top" Height="22" Width="622" FontWeight="Bold" FontSize="16"/>
             <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="622"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="69" Margin="88,176,0,0" VerticalAlignment="Top" Width="622">
@@ -34,12 +34,12 @@
                     <GradientStop Color="#FFD46B6B" Offset="0.317"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Correo" VerticalAlignment="Top" Height="22" Width="622"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Correo" VerticalAlignment="Top" Height="22" Width="622" FontWeight="Bold" FontSize="16"/>
             <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="622"/>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Height="25" Margin="545,275,91,0" VerticalAlignment="Top">
-            <Button Content="Aceptar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-            <Button Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Height="25" Margin="480,276,104,0" VerticalAlignment="Top">
+            <Button Content="Aceptar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+            <Button Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
         </StackPanel>
 
     </Grid>
