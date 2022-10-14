@@ -6,6 +6,17 @@
         xmlns:local="clr-namespace:Tema3_FormularioStackPanel"
         mc:Ignorable="d"
         Title="Formulario" Height="450" Width="800" Icon="Imagenes\96 (1).ico">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="Width" Value="622"/>
+            <Setter Property="Height" Value="22"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+    </Window.Resources>
     <Grid>
         <StackPanel HorizontalAlignment="Left" Height="59" Margin="88,38,0,0" VerticalAlignment="Top" Width="622">
             <StackPanel.Background>
@@ -14,8 +25,8 @@
                     <GradientStop Color="#FFFEFFFE" Offset="0.983"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Height="22" Width="622" FontWeight="Bold" FontSize="16"/>
-            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="622"/>
+            <TextBlock Text="Nombre"/>
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="57" Margin="88,114,0,0" VerticalAlignment="Top" Width="622">
             <StackPanel.Background>
@@ -24,8 +35,8 @@
                     <GradientStop Color="White" Offset="0.8"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Dirrecion" VerticalAlignment="Top" Height="22" Width="622" FontWeight="Bold" FontSize="16"/>
-            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="622"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Dirrecion" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" />
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="69" Margin="88,176,0,0" VerticalAlignment="Top" Width="622">
             <StackPanel.Background>
@@ -34,8 +45,8 @@
                     <GradientStop Color="#FFD46B6B" Offset="0.317"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Correo" VerticalAlignment="Top" Height="22" Width="622" FontWeight="Bold" FontSize="16"/>
-            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="622"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Correo" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" />
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Height="25" Margin="480,276,104,0" VerticalAlignment="Top">
             <Button Content="Aceptar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
