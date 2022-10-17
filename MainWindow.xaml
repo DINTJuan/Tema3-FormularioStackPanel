@@ -16,6 +16,18 @@
             <Setter Property="HorizontalAlignment" Value="Left"/>
             <Setter Property="TextWrapping" Value="Wrap"/>
         </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Width" Value="622"/>
+            <Setter Property="Height" Value="23"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
     </Window.Resources>
     <Grid>
         <StackPanel HorizontalAlignment="Left" Height="59" Margin="88,38,0,0" VerticalAlignment="Top" Width="622">
@@ -26,7 +38,7 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
             <TextBlock Text="Nombre"/>
-            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="57" Margin="88,114,0,0" VerticalAlignment="Top" Width="622">
             <StackPanel.Background>
@@ -35,8 +47,8 @@
                     <GradientStop Color="White" Offset="0.8"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Dirrecion" VerticalAlignment="Top"/>
-            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" />
+            <TextBlock Text="Dirrecion"/>
+            <TextBox />
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="69" Margin="88,176,0,0" VerticalAlignment="Top" Width="622">
             <StackPanel.Background>
@@ -45,12 +57,12 @@
                     <GradientStop Color="#FFD46B6B" Offset="0.317"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Correo" VerticalAlignment="Top"/>
-            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" />
+            <TextBlock Text="Correo"/>
+            <TextBox />
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Height="25" Margin="480,276,104,0" VerticalAlignment="Top">
-            <Button Content="Aceptar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
-            <Button Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+            <Button Content="Aceptar"/>
+            <Button Content="Cancelar"/>
         </StackPanel>
 
     </Grid>
